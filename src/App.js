@@ -35,7 +35,7 @@ export default function ToDo() {
 
     <input type="text" value={task} 
     onChange={handleChange}/>
-    <button className="add">Add</button>
+    <button className="add" disabled={task.length === 0}>Add</button>
 
     
 
