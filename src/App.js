@@ -44,7 +44,7 @@ function handleMode(){
     <div className="container" style={style}>
 
    <img className="theme" src={on ? light : dark} onClick={handleMode} 
-        alt="dark" height={on?30:32} width={31}/>
+        alt="dark" height={30} width={31}/>
     <h3 className="title">Todo Management App</h3>
     
     <form className="input" onSubmit={submitHandler}>
